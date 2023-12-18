@@ -26,9 +26,20 @@ DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
 ```
-И в конце запускаем миграции и сид данных
+Запускаем миграции и сид данных
 ```angular2html
 php artisan migrate --seed
+```
+
+Генерируем ключ приложения laravel
+```angular2html
+php artisan key:generate
+```
+
+Сборка фронта
+```angular2html
+npm install
+npm run build
 ```
 
 Для запуска веб-сервера необходимо выполнить команду
